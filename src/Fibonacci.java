@@ -19,7 +19,7 @@ public class Fibonacci implements FibonacciLike{
         numbers.add(number1);
         numbers.add(number2);
 
-        calculateRecursive(number1,number2,amountofNumbersInSequence);
+        calculateRecursive(number1,number2,amountofNumbersInSequence-2);
         /*
         for(int i=0;i<amountofNumbersInSequence-2;i++){
         numbers.add(numbers.get(numbers.size()-1)+numbers.get(numbers.size()-2));
